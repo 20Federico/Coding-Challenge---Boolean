@@ -1,0 +1,90 @@
+body{
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+.home{
+ background: rgba(0, 0, 0, 0.5);
+ width: 960px;
+ margin: auto;
+ margin-top: 20px;
+ border-radius: 15px;
+}
+
+#logo{
+  display: block;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  opacity: 1;
+}
+
+#titolo{
+  color: rgb(0, 255, 0);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+nav{
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+  padding: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.button{
+  padding: 2px;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+main{
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 80px;
+  color: white;
+  font-weight: lighter;
+  line-height: 1.6;
+
+}
+
+.monopattino{
+  margin-top: 20px;
+}
+
+.nome{
+  font-size: 20px;
+}
+
+.posizione , .info{
+  color: lightgrey;
+  font-size: 13px;
+}
+
+.carica1{
+  background-color: orange;
+  color: rgba(0, 0, 0, 0);
+  width: 30%;
+  border-radius: 5px;
+}
+
+.carica2{
+  background-color: green;
+  color: rgba(0, 0, 0, 0);
+  width: 60%;
+  border-radius: 5px;
+}
+
+.carica3{
+  background-color: red;
+  color: rgba(0, 0, 0, 0);
+  width: 15%;
+  border-radius: 5px;
+}
